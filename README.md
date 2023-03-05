@@ -10,11 +10,17 @@ The package can be downloaded from Cran or from Github.
 1. Cran
 
 
-`{r eval = FALSE} install.packages('ss3sim',repos='https://cran.r-project.org/web/packages/ss3sim/index.html', dependencies=TRUE)`
+```r 
+install.packages('ss3sim',
+repos='https://cran.r-project.org/web/packages/ss3sim/index.html', dependencies=TRUE)
+```
 
 2.  Github
 
-`{r eval = FALSE} remotes::install_github("ss3sim/ss3sim", ref = "main", build_vignettes = TRUE, dependencies = TRUE )`
+```r
+remotes::install_github("ss3sim/ss3sim", ref = "main",
+build_vignettes = TRUE, dependencies = TRUE )
+```
 
 # Vignette(s)
 
