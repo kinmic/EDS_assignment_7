@@ -1,12 +1,11 @@
 
-# Package title
 
 
 <big>ss3sim</big>
 =======
 
 
-# Location
+## Location
 
 The package can be downloaded from Cran or from Github.  
 
@@ -25,7 +24,7 @@ remotes::install_github("ss3sim/ss3sim", ref = "main",
 build_vignettes = TRUE, dependencies = TRUE )
 ```
 
-# Vignette(s)
+## Vignette(s)
 
 `{ss3sim}` has a number of useful help files.
 
@@ -55,7 +54,7 @@ Google is used to [search for introductory
 material](https://www.google.com/search?q=introduction+to+ss3sim&oq=introduction+to+ss3sim&aqs=chrome..69i57j69i60l2.4403j0j7&sourceid=chrome&ie=UTF-8),
 the CRAN intro is the first result.
 
-# Application(s)
+## Application(s)
 
 The primary application of the package is that it allows users to crate
 simulated fish populations and estimate them using the [Stock Synthesis
@@ -67,7 +66,7 @@ Monnahan et al. ([2016](#ref-monnahan_effect_2016))
 Ono et al. ([2015](#ref-ono_importance_2015))  
 Rudd et al. ([2021](#ref-rudd_catch_2021))
 
-# Review
+## Review
 
 `{ss3sim}` is an r package which allows users to simulate fish stock
 populations and asses them using [Stock Synthesis
@@ -100,7 +99,7 @@ effect of having *F* set far higher than is suitable. The effect of this
 on a fishery over a time period ( I chose 100 years) could then be
 observed.
 
-# References
+## References
 
 Anderson, S.C., Monnahan, C.C., Johnson, K.F., Ono, K., Valero, J.L.,
 2014. ss3sim: An R Package for Fisheries Stock Assessment Simulation
