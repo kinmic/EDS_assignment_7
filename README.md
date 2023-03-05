@@ -1,7 +1,7 @@
 
 # Package title
 
-\Large ss3sim
+<font size = "20">ss3sim</font>
 
 # Location
 
