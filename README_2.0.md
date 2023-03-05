@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-`{r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE) library(tinytex) library(knitcitations)`
 
 # Package title
 
@@ -10,11 +8,11 @@
 The package can be downloaded from Cran or from Github. 1)
 [Cran](https://cran.r-project.org/web/packages/SS3seem/index.html)
 
-`{r eval = FALSE} install.packages('ss3sim',                   repos='https://cran.r-project.org/web/packages/ss3sim/index.html'                  , dependencies=TRUE)`
+`{r eval = FALSE} install.packages('ss3sim',repos='https://cran.r-project.org/web/packages/ss3sim/index.html', dependencies=TRUE)`
 
 1.  Github
 
-`{r eval = FALSE} remotes::install_github(   "ss3sim/ss3sim",   ref = "main",   build_vignettes = TRUE, dependencies = TRUE )`
+`{r eval = FALSE} remotes::install_github("ss3sim/ss3sim", ref = "main", build_vignettes = TRUE, dependencies = TRUE )`
 
 # Vignette(s)
 
@@ -117,12 +115,4 @@ Rudd, M.B., Cope, J.M., Wetzel, C.R., Hastie, J., 2021. Catch and Length
 Models in the Stock Synthesis Framework: Expanded Application to
 Data-Moderate Stocks. Frontiers in Marine Science 8, 663554.
 <https://doi.org/10.3389/fmars.2021.663554>
-=======
-# EDS_assignment_7
-Repo for environmental data science (fish549) assignment 7. The package chosen is [ss3sim](https://github.com/ss3sim).
-The repo contains:
-- assignment report (assignment_7.pdf)
-- r code (assignmnet_7.rmd)
-- references (refs.bib) and 
-- csl(fisheries_research.csl)
->>>>>>> 2ae858b91ed52d8e857f433c4d2bc9aede07cfb9
+
