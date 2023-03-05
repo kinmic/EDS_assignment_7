@@ -1,9 +1,7 @@
 
 # Package title
 
-```r
-{SS3sim}
-```
+ss3sim
 
 # Location
 
