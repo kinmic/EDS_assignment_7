@@ -1,7 +1,7 @@
 
 # Package title
 
-\Large ss3sim
+<big>ss3sim</big>
 
 # Location
 
