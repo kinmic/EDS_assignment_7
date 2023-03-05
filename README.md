@@ -1,4 +1,3 @@
-`{r setup, include=FALSE} knitr::opts_chunk$set(echo = TRUE) library(tinytex) library(knitcitations)`
 
 # Package title
 
@@ -6,14 +5,16 @@
 
 # Location
 
-The package can be downloaded from Cran or from Github. 1)
-[Cran](https://cran.r-project.org/web/packages/SS3seem/index.html)
+The package can be downloaded from Cran or from Github.  
 
-`{r eval = FALSE} install.packages('ss3sim',                   repos='https://cran.r-project.org/web/packages/ss3sim/index.html'                  , dependencies=TRUE)`
+1. Cran
 
-1.  Github
 
-`{r eval = FALSE} remotes::install_github(   "ss3sim/ss3sim",   ref = "main",   build_vignettes = TRUE, dependencies = TRUE )`
+`{r eval = FALSE} install.packages('ss3sim',repos='https://cran.r-project.org/web/packages/ss3sim/index.html', dependencies=TRUE)`
+
+2.  Github
+
+`{r eval = FALSE} remotes::install_github("ss3sim/ss3sim", ref = "main", build_vignettes = TRUE, dependencies = TRUE )`
 
 # Vignette(s)
 
@@ -116,3 +117,4 @@ Rudd, M.B., Cope, J.M., Wetzel, C.R., Hastie, J., 2021. Catch and Length
 Models in the Stock Synthesis Framework: Expanded Application to
 Data-Moderate Stocks. Frontiers in Marine Science 8, 663554.
 <https://doi.org/10.3389/fmars.2021.663554>
+
